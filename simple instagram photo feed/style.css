@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	background-color: #DBDBDB;
+	font-family: 'Roboto', sans-serif;
+
+}
+.container{
+	display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+}
+
+.blanco{
+	background-color: white;
+}
+
+div.cuadro .cuadro-header div:first-child{
+	display: inline-block;
+	width: 80%;
+	padding-left: 2%;
+}
+
+div.cuadro .cuadro-header div:last-child{
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+	color: gray;
+	padding-right: 2%;
+}
+
+.foto img{
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .foto img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+.anchonuevo{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.padding{
+padding: 1%;
+}
