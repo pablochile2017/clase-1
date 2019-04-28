@@ -1,1 +1,54 @@
-style.css
+
+.container{
+	width: 600px;
+	height: 400px;
+	position: absolute; 
+	top: 10%; left: 30%;
+	background-color: white;
+}
+body{
+	margin: 0;
+	font-family: 'Handlee', cursive;
+	background-color: black;
+}
+.header{
+	overflow: hidden;
+	height: 100px;
+	padding: 3%;
+}
+h1{
+	font-size: 50px;
+}
+
+.header img{
+	float: right;
+	max-width: 80px;
+}
+.izquierdo{
+	width: 50%;
+	float: left;
+}
+.derecho{
+	width: 40%;
+	float: right;
+}
+.footer{
+	text-align: center;
+}
+.cuerpo{
+	overflow: hidden;
+	padding: 3%;
+}
+input[type=text]{
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+	border: none;
+	border-bottom: solid 1px gray;
+}
+input[type=submit]{
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+	border: none;
+	border-bottom: solid 1px gray;
+	font-weight: bold;
+}
